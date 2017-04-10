@@ -1,0 +1,203 @@
+#gallerycont
+{
+	
+}
+
+	#gallerycont ul
+	{
+		margin: 0;
+		list-style-type: none;
+	}
+
+		#gallerycont ul li
+		{
+			padding: 0;
+		}
+
+			#gallerycont .bxtxtcont
+			{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				
+				background: -moz-linear-gradient(left, rgba(0,0,0,1) 0, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 100%);
+				background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(20%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)));
+				background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 100%);
+				background: -o-linear-gradient(left, rgba(0,0,0,1) 0, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 100%);
+				background: -ms-linear-gradient(left, rgba(0,0,0,1) 0, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 100%);
+				background: linear-gradient(to right, rgba(0,0,0,1) 0, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 100%);
+				
+				filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#00000000', GradientType=1)
+			}
+			
+			#gallerycont .vertcentre
+			{
+				position: absolute;
+				top: 50%;
+				
+				transform: translate(0, -50%);
+				-webkit-transform: translate(0, -50%);
+				-moz-transform: translate(0, -50%);
+				-ms-transform: translate(0, -50%)
+			}
+	
+.bx-wrapper
+{
+	position: relative;
+	padding: 0;
+	*zoom: 1;
+}
+
+.bx-wrapper img
+{
+	max-width: 100%;
+	display: block;
+}
+
+.bxtxtcont
+{
+	float: left;
+	width: 90% !important;
+	max-width: 800px;
+	padding: 0 5% !important;
+	text-align: left;
+}
+
+	.bxtxtcont h3
+	{
+		color: #FFF;
+		font-size: 46px;
+		line-height: 46px;
+	}
+	
+		.bxtxtcont h3 strong
+		{
+			font-weight: 400;
+		}
+	
+	.bxtxtcont p
+	{
+		margin-bottom: 0;
+	}
+	
+	.bxtxtcont p.smalltxt
+	{
+		margin-bottom: 20px;
+		color: #FFF;
+		line-height: 26px;
+		font-style: italic;
+	}
+
+		.bxtxtcont p a
+		{
+			display: inline-block;
+			padding: 10px 14px;
+			background: none;
+			border: 2px solid #1abc9c;
+			color: #FFF;
+			font-family: "Oswald";
+			text-transform: uppercase;
+			letter-spacing: 2.5px;
+		}
+		
+		.bxtxtcont p a:hover
+		{
+			background: #1abc9c;
+		}
+
+/** Buttons **/
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto
+{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	z-index: 51;
+}
+
+.bx-wrapper .bx-pager
+{
+	text-align: center;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item
+{
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+	.bx-wrapper .bx-pager.bx-default-pager a
+	{
+		background: #FFF;
+		text-indent: -9999px;
+		display: block;
+		width: 12px;
+		height: 12px;
+		margin: 0 5px;
+		outline: 0;
+		
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+		border-radius: 15px;
+	}
+	
+		.bx-wrapper .bx-pager.bx-default-pager a:hover,
+		.bx-wrapper .bx-pager.bx-default-pager a.active
+		{
+			background: #1abc9c;
+		}
+
+
+/* ==================================================
+   Responsive Media Queries - Tablets
+================================================== */
+
+@media screen and (max-width: 768px)
+{
+
+	.bxtxtcont
+	{
+		padding: 0 4% !important;
+	}
+	
+	.bxtxtcont h3
+	{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	
+	.bxtxtcont p.smalltxt
+	{
+		line-height: 20px;
+		font-size: 16px;
+	}
+
+		.bxtxtcont p a
+		{
+			font-size: 16px;
+			padding: 6px 10px;
+			letter-spacing: 1.5px;
+		}
+		
+		.bxtxtcont p a:hover
+		{
+			background: #1abc9c;
+		}
+		
+}
+
+/* ==================================================
+   Responsive Media Queries - Mobiles
+================================================== */
+
+@media screen and (max-width: 480px)
+{		
+	
+	
+	
+}
